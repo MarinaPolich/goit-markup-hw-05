@@ -94,8 +94,8 @@
     transition: transform 250ms var(--timing-function);
 }
 
-.project .item:hover .project-thumb::before,
-.project .item:focus .project-thumb::before {
+.project .link:hover .project-thumb::before,
+.project .link:focus .project-thumb::before {
     transform: translateY(0);
 }
 
@@ -115,8 +115,8 @@
     transition: transform 250ms var(--timing-function);
 }
 
-.project .item:hover .label,
-.project .item:focus .label {
+.project .link:hover .label,
+.project .link:focus .label {
     transform: translate(-50%, -225%);
 }
 
