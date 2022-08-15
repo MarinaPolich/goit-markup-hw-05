@@ -144,6 +144,8 @@
     margin-top: 0;
     margin-bottom: 0;
 
+    color: var(--primary-text-color);
+
     font-size: 16px;
     line-height: 1.88;
 }
